@@ -727,7 +727,7 @@ class Linkedin(object):
         :return: List of search results
         :rtype: list
         """
-        return self.search_people(connection_of=urn_id, network_depth="F")
+        return self.search_people(connection_of=urn_id, network_depth="S")
 
     def get_company_updates(
         self, public_id=None, urn_id=None, max_results=None, results=[]
